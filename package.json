@@ -1,0 +1,37 @@
+{
+  "name": "@zhfejs/webpack-git-revision-plugin",
+  "version": "0.0.1",
+  "author": "zhenghui-fe",
+  "private": false,
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "files": ["lib"],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "zhfejs",
+    "webpack",
+    "git",
+    "revision",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhfejs/webpack-git-revision-plugin.git",
+  },
+  "bugs": {
+    "url": "https://github.com/Mr-blanker/zh-fe/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dayjs": "^1.10.5",
+    "file-save": "^0.2.0",
+    "git-revision-webpack-plugin": "^5.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.52.4"
+  }
+}

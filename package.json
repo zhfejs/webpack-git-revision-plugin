@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:zhfejs/webpack-git-revision-plugin.git",
+    "url": "git@github.com:zhfejs/webpack-git-revision-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/Mr-blanker/zh-fe/issues"
+    "url": "https://github.com/zhfejs/webpack-git-revision-plugin/issues"
   },
   "dependencies": {
     "chalk": "^4.1.1",
